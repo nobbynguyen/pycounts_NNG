@@ -10,12 +10,12 @@ $ pip install pycounts_nng
 
 ## Usage
 
-`pycounts` can be used to count words in a text file and plot results
+`pycounts_nng` can be used to count words in a text file and plot results
 as follows:
 
 ```python
-from pycounts.pycounts import count_words
-from pycounts.plotting import plot_words
+from pycounts_nng.pycounts_nng import count_words
+from pycounts_nng.plotting_nng import plot_words
 import matplotlib.pyplot as plt
 
 file_path = "test.txt"  # path to your file
